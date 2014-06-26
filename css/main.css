@@ -2,7 +2,8 @@
 
 html {
     font-family: 'Open Sans', sans-serif;
-    width: 960px;
+    width: 100%;
+    min-width: 800px;
     margin: auto;
     background-color: #EEEEEE;
 }
@@ -35,6 +36,7 @@ footer {
     display: inline-block;
     margin-left: 6px;
     margin-right: 6px;
+    font-size: 100%;
 }
 
 .navbar a:link , .navbar a:visited {
@@ -87,9 +89,12 @@ footer {
 
 /* -------------------- Question -------------------- */
 .question {
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 .question p {
+    font-size: 100%;
     line-height: 1.5;
     margin: 15px 50px;
     color: rgb(48, 48, 64);
@@ -97,23 +102,31 @@ footer {
 
 .question h3 {
     line-height: 1.5;
-    font-size: 125%;
+    font-size: 110%;
     margin: 35px 0px 15px 0px;
     border-bottom: 2px solid rgb(86, 160, 92);
     color: rgb(16,48,16)
 }
 
 .question h4 {
+    font-size: 100%;
     line-height: 1.5;
     margin: 20px 50px 5px 50px;
     border-bottom: 1px solid rgb(56, 144, 248);
     display: inline-block;
     cursor: pointer;
+    color: rgb(48, 48, 64);
 }
 
 .question li h5 {
+    font-size: 100%;
     border-bottom: 1px solid rgb(255, 175, 80);
     display: inline-block;
+    color: rgb(48, 48, 64);
+}
+
+.question li {
+    padding-left: 20px;
 }
 
 .question > ul {
@@ -121,16 +134,19 @@ footer {
     list-style-position: inside;
     line-height: 1.5;
     margin: 0px 50px;
+    color: rgb(48, 48, 64);
 }
 
 .question td {
     padding: 6px 18px;
     text-align: center;
     line-height: 1.5;
+    font-size: 100%;
 }
 
 .question a:link, .question a:visited {
     color: rgb(50, 170, 230);
+    font-size: 100%;
 }
 
 .question .initially-hidden {
@@ -138,13 +154,4 @@ footer {
 }
 
 /* -------------------- End Of Question -------------------- */
-
-
-
-
-
-
-
-
-
 
