@@ -80,6 +80,15 @@ footer {
     font-size: 90%;
     padding: 5px 0px;
 }
+.cover p{
+    font-size: 100%;
+    text-align: left;
+    max-width: 800px;
+    margin: auto;
+    line-height: 1.8;
+    text-indent: 20px;
+    padding-top: 10px;
+}
 
 /* -------------------- End Of Cover -------------------- */
 
