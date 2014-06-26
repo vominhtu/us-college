@@ -121,6 +121,7 @@ footer {
     display: inline-block;
     cursor: pointer;
     color: rgb(48, 48, 64);
+    font-size: 14px;
 }
 
 .question li h5 {
