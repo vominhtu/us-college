@@ -36,7 +36,6 @@ footer {
     display: inline-block;
     margin-left: 6px;
     margin-right: 6px;
-    font-size: 100%;
 }
 
 .navbar a:link , .navbar a:visited {
@@ -67,21 +66,20 @@ footer {
 }
 
 .cover h2 {
-    font-size: 225%;
+    font-size: 30px;
     padding: 50px 0px;
     line-height: 1.5;
     color: rgb(20, 80, 150)
 }
 .cover h3 {
-    font-size: 110%;
+    font-size: 16px;
     padding: 15px 0px 5px 0px;
 }
 .cover h4 {
-    font-size: 90%;
+    font-size: 12px;
     padding: 5px 0px;
 }
 .cover p{
-    font-size: 100%;
     text-align: left;
     max-width: 800px;
     margin: auto;
@@ -103,7 +101,6 @@ footer {
 }
 
 .question p {
-    font-size: 100%;
     line-height: 1.5;
     margin: 15px 50px;
     color: rgb(48, 48, 64);
@@ -111,14 +108,13 @@ footer {
 
 .question h3 {
     line-height: 1.5;
-    font-size: 110%;
+    font-size: 16px;
     margin: 35px 0px 15px 0px;
     border-bottom: 2px solid rgb(86, 160, 92);
     color: rgb(16,48,16)
 }
 
 .question h4 {
-    font-size: 100%;
     line-height: 1.5;
     margin: 20px 50px 5px 50px;
     border-bottom: 1px solid rgb(56, 144, 248);
@@ -128,7 +124,6 @@ footer {
 }
 
 .question li h5 {
-    font-size: 100%;
     border-bottom: 1px solid rgb(255, 175, 80);
     display: inline-block;
     color: rgb(48, 48, 64);
@@ -150,12 +145,10 @@ footer {
     padding: 6px 18px;
     text-align: center;
     line-height: 1.5;
-    font-size: 100%;
 }
 
 .question a:link, .question a:visited {
     color: rgb(50, 170, 230);
-    font-size: 100%;
 }
 
 .question .initially-hidden {
