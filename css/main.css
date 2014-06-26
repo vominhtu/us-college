@@ -2,17 +2,21 @@
 
 html {
     font-family: 'Source Sans Pro', sans-serif;
-    width: 800px;
+    width: 960px;
     margin: auto;
     background-color: #EEEEEE;
 }
 
 .content-area {
     background-color: #FFFFFF;
-    min-height: 800px;
+    min-height: 500px;
     padding: 20px 50px 80px 50px;
 }
 
+footer {
+    text-align: center;
+    padding: 5px;
+}
 
 
 /* -------------------- Navigation Bar -------------------- */
@@ -61,7 +65,7 @@ html {
 }
 
 .cover h2 {
-    font-size: 175%;
+    font-size: 275%;
     padding: 50px 0px;
     line-height: 1.5;
 }
