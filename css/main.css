@@ -1,7 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,600);
-
 html {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     width: 100%;
     min-width: 800px;
     margin: auto;
@@ -20,6 +18,10 @@ html {
 footer {
     text-align: center;
     padding: 5px;
+}
+
+footer p i {
+    font-size: 80%;
 }
 
 
@@ -42,7 +44,7 @@ footer {
 }
 
 .navbar a:link , .navbar a:visited {
-    color: #EFEFEF;
+    color: #EEEEEE;
 }
 
 .navbar a:hover , .navbar a:active {
@@ -69,17 +71,18 @@ footer {
 }
 
 .cover h2 {
-    font-size: 30px;
+    font-size: 225%;
+    font-family: "Trebuchet MS";
     padding: 50px 0px;
     line-height: 1.5;
-    color: rgb(20, 80, 150)
+    color: rgb(20, 80, 150);
 }
 .cover h3 {
-    font-size: 16px;
+    font-size: 115%;
     padding: 15px 0px 5px 0px;
 }
 .cover h4 {
-    font-size: 12px;
+    font-size: 85%;
     padding: 5px 0px;
 }
 .cover p{
@@ -106,15 +109,15 @@ footer {
 .question p {
     line-height: 1.5;
     margin: 15px 50px;
-    color: rgb(48, 48, 64);
+    color: #404040;
 }
 
 .question h3 {
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 115%;
     margin: 35px 0px 15px 0px;
     border-bottom: 2px solid rgb(86, 160, 92);
-    color: rgb(16,48,16)
+    color: #0F0F0F;
 }
 
 .question h4 {
@@ -123,14 +126,14 @@ footer {
     border-bottom: 1px solid rgb(56, 144, 248);
     display: inline-block;
     cursor: pointer;
-    color: rgb(48, 48, 64);
-    font-size: 14px;
+    color: #404040;
+    font-size: 100%;
 }
 
 .question li h5 {
     border-bottom: 1px solid rgb(255, 175, 80);
     display: inline-block;
-    color: rgb(48, 48, 64);
+    color: #404040;
 }
 
 .question li {
@@ -142,7 +145,7 @@ footer {
     list-style-position: inside;
     line-height: 1.5;
     margin: 0px 50px;
-    color: rgb(48, 48, 64);
+    color: #404040;
 }
 
 .question td {
@@ -152,7 +155,7 @@ footer {
 }
 
 .question a:link, .question a:visited {
-    color: rgb(50, 170, 230);
+    color: #F57F0A;
 }
 
 .question .initially-hidden {
