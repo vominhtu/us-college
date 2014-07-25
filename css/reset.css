@@ -8,8 +8,9 @@ em, img, i, ol, ul, li, a {
     vertical-align:baseline;
     background:transparent;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
+    word-spacing: 1px;
 }
 
 b {
@@ -17,7 +18,7 @@ b {
 }
 
 body {
-    line-height:1;
+    line-height:1.8;
 }
 ul {
     list-style:none;
